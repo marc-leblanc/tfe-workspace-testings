@@ -5,6 +5,6 @@ resource "random_string" "new_rando" {
 }
 
 output "rand_string2" {
-  value = random_string.random.result
+  value = random_string.new_rando.result
 }
 
